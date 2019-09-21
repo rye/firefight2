@@ -1,28 +1,28 @@
 source "https://rubygems.org"
-gem "ruby-ntlm"
+gem "ruby-ntlm", "~> 0.0.1"
 
 gem "rails", "3.2.17"
 
 # Bundle edge Rails instead:
 # gem "rails", :git => "git://github.com/rails/rails.git"
 
-gem "sqlite3"
-gem "mysql2"
-gem "paperclip"
-gem "bluecloth"
+gem "sqlite3", "~> 1.3.7"
+gem "mysql2", "~> 0.3.11"
+gem "paperclip", "~> 3.4.2"
+gem "bluecloth", "~> 2.2.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
 gem "sass-rails",   "~> 3.2.3"
 gem "coffee-rails", "~> 3.2.1"
-gem "jquery-datatables-rails"
+gem "jquery-datatables-rails", "~> 1.11.2"
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem "therubyracer"
 
-gem "uglifier", ">= 1.0.3"
+gem "uglifier", "~> 1.0.3"
 
-gem "jquery-rails"
-gem "jquery-ui-rails"
+gem "jquery-rails", "~> 3.0.1"
+gem "jquery-ui-rails", "~> 4.0.3"
 
 # To use ActiveModel has_secure_password
 # gem "bcrypt-ruby", "~> 3.0.0"
@@ -39,18 +39,17 @@ gem "jquery-ui-rails"
 # To use debugger
 # gem "ruby-debug19", :require => "ruby-debug"
 
-gem "therubyracer"
-gem "execjs"
-gem "net-ldap"
-gem "jquery-rails"
-gem "twitter-bootstrap-rails"
-gem "exception_notification", :require => "exception_notifier"
-gem "resque"
-gem "resque_mailer"
-gem "bcrypt-ruby"
-gem "less-rails"
-gem "public_activity"
-gem "guard"
-gem "guard-rspec"
+gem "therubyracer", "~> 0.11.4"
+gem "execjs", "~> 1.4.0"
+gem "net-ldap", "~> 0.3.1"
+gem "twitter-bootstrap-rails", "~> 2.2.7"
+gem "exception_notification", "~> 3.0.1", :require => "exception_notifier"
+gem "resque", "~> 1.24.1"
+gem "resque_mailer", "~> 2.2.4"
+gem "bcrypt-ruby", "~> 3.0.1"
+gem "less-rails", "~> 2.3.3"
+gem "public_activity", "~> 1.4.1"
+gem "guard", "~> 2.1"
+gem "guard-rspec", "~> 4.2.10"
 
-gem "minitest"
+gem "minitest", "~> 5.3.5"
